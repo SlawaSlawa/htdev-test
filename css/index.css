@@ -1,3 +1,75 @@
+/* Arial Regular */
+/* Lato Regular */
+/* Trebuchet MS Regular */
+/* Lato Bold */
+/* BASIC */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+}
+
+/* HEADER */
+.container--header {
+    position: relative;
+}
+
 .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #0A398A;
+    position: absolute;
+    width: 267px;
+    height: 103px;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+/* HERO */
+
+.hero {
+    background-color: #8A7B60;
+    background-image: url("../images/hero-bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding-top: 219px;
+    padding-bottom: 213px;
+}
+
+.hero__title {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 80px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.hero__subtitle {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px;
+    max-width: 550px;
+}
+.hero__decor {
+    position: absolute;
+    width: 363px;
+    height: 368px;
+    background-image: url("../images/decor-gray.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    right: 0;
+    bottom: -72px;
 }

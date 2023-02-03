@@ -22,6 +22,9 @@
     font-display: swap;
 }
 
+.dn {
+    display: none!important;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -71,7 +74,12 @@ body {
     font-size: 40px;
     line-height: 60px;
     color: #0A3B93;
+    margin-top: 0;
     margin-bottom: 60px;
+}
+
+.section-title--uppercase {
+    text-transform: uppercase;
 }
 
 /* HERO */
@@ -352,4 +360,97 @@ body {
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+}
+
+/* PRESENTATION */
+
+.presentation {
+    position: relative;
+    background-color: #F7EEE5;
+    padding-top: 5px;
+    padding-bottom: 120px;
+}
+.presentation__decor-up {
+    display: block;
+    position: absolute;
+    background-image: url("../images/decor-presentation-up.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 260px;
+    height: 416px;
+    top: 0;
+    right: 0;
+}
+.presentation__decor-center {
+    display: block;
+    position: absolute;
+    background-image: url("../images/decor-presentation-mid.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 292px;
+    height: 368px;
+    top: 43%;
+    left: 0;
+}
+
+.section-title--presentation {
+    margin-bottom: 20px;
+}
+
+.presentation__subtitle {
+    font-size: 18px;
+    line-height: 30px;
+    color: #6C5F4A;
+    margin-bottom: 60px;
+}
+.presentation__item {
+    background-color: #0A3B8E;
+    display: flex;
+    align-items: start;
+    position: relative;
+    max-width: 858px;
+    height: 294px;
+}
+
+.presentation__item--reverse {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+
+.presentation__img-block {
+    width: 565px;
+}
+.presentation__img {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 240px;
+}
+.presentation__description {
+    background-color: #8A7B60;
+    text-align: right;
+    margin: 0;
+    padding: 16px 40px;
+}
+.presentation__desc-block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 294px;
+    height: 100%;
+}
+
+.presentation__numbers {
+    font-size: 73px;
+    margin-bottom: 30px;
+}
+
+.presentation__desc-block-description {
+    text-align: center;
+    width: 228px;
+    margin-top: 14px;
 }

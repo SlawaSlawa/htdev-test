@@ -37,6 +37,18 @@ body {
     margin: 0 auto;
 }
 
+.btn {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    transition: opacity .3s ease;
+}
+
+.btn:hover {
+    opacity: .5;
+}
+
 /* HEADER */
 .container--header {
     position: relative;
@@ -153,4 +165,44 @@ body {
 
 .info__description:last-child {
     margin-bottom: 0;
+}
+
+/* NOTE */
+
+.note {
+    background-color: #0A3B93;
+    position: relative;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.note__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.note__btn {
+    background-image: url("../images/more-btn-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 47px;
+    height: 60px;
+    margin-right: 38px;
+}
+.note___text {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    max-width: 676px;
+}
+.note__decor {
+    position: absolute;
+    background-image: url("../images/decor-blue.svg");
+    width: 437px;
+    height: 173px;
+    right: 0;
+    bottom: 0;
 }

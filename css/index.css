@@ -206,3 +206,73 @@ body {
     right: 0;
     bottom: 0;
 }
+
+/* SLOGAN */
+.slogan {
+    background-color: #8A7B60;
+    background-image: url("../images/mission-bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-top: 80px;
+    padding-bottom: 101px;
+}
+
+.slogan__title {
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 486px;
+    margin: 0 auto 40px auto;
+}
+
+.slogan__title::before, .slogan__title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #fff;
+    width: 66px;
+    height: 4px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.slogan__title::before {
+    left: 0;
+    transform: translateX(-130%);
+}
+
+.slogan__title::after {
+    right: 0;
+    transform: translateX(130%);
+}
+
+.slogan__description {
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+.goto-link {
+    display: block;
+    background-color: #fff;
+    font-family: 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #0A3B93;
+    text-decoration: none;
+    width: 283px;
+    margin: 0 auto;
+    padding: 20px 40px;
+}

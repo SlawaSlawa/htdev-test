@@ -233,9 +233,14 @@ body {
     padding-top: 80px;
     padding-bottom: 101px;
 }
+.slogan__title-wrap {
+    display: flex;
+    justify-content: center;
+}
 
 .slogan__title {
     position: relative;
+    display: inline-block;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -243,7 +248,6 @@ body {
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-    width: 486px;
     margin: 0 auto 40px auto;
 }
 
@@ -259,13 +263,11 @@ body {
     transform: translateY(-50%);
 }
 .slogan__title::before {
-    left: 0;
-    transform: translateX(-130%);
+    left: -100px;
 }
 
 .slogan__title::after {
-    right: 0;
-    transform: translateX(130%);
+    right: -100px;
 }
 
 .slogan__description {
@@ -292,6 +294,12 @@ body {
     width: 283px;
     margin: 0 auto;
     padding: 20px 40px;
+    transition: color .3s ease, background-color .3s ease;
+}
+
+.goto-link:hover {
+    color: #fff;
+    background-color: #0A3B93;
 }
 
 /* ADVANTAGES */

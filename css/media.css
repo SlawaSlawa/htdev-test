@@ -185,6 +185,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .note {
         overflow: hidden;
     }
+    .note:before {
+        display: none;
+    }
     .note__decor {
         width: 436px;
         height: 322px;
@@ -194,9 +197,10 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 @media (max-width: 1019px) {
     .note {
-        padding-top: 32px;
+        padding-top: 50px;
         padding-bottom: 32px;
     }
+    
     .note__text {
         font-size: 16px;
         line-height: 20px;
@@ -215,6 +219,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 @media (max-width: 699px) {
+    .note {
+        padding-top: 32px;
+    }
     .note__wrapper {
         align-items: start;
     }
@@ -229,5 +236,68 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .note__decor {
         right: -10px;
         bottom: -64px;
+    }
+}
+
+/* SLOGAN */
+@media (max-width: 1139px) {
+    .slogan__title {
+        margin-bottom: 32px;
+    }
+    .slogan__description {
+        line-height: 32px;
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width: 1019px) {
+    .slogan {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .slogan__title {
+        font-size: 30px;
+        line-height: 46px; 
+        margin-bottom: 10px; 
+    }
+    .slogan__title::before,
+    .slogan__title::after {
+        width: 15px;
+        height: 1px;
+    } 
+    .slogan__title::before {
+        left: -26px;
+    }
+    .slogan__title::after {
+        right: -26px;
+    }
+    .slogan__description {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 428px;
+        margin: 0 auto 12px auto;
+    }
+    .goto-link {
+        font-size: 14px;
+        width: 171px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 699px) {
+    .slogan {
+        padding-top: 27px;
+        padding-bottom: 60px;
+    }
+    .slogan__title {
+        font-size: 18px;
+    }
+    .slogan__description {
+        margin-bottom: 30px;
+    }
+    .goto-link {
+        font-size: 18px;
+        width: 197px;
+        padding: 10px 20px;
     }
 }

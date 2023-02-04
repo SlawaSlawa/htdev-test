@@ -5,11 +5,6 @@ S -> 700px - 1019px Здесь ширина контейнера 610px.
 XS -> 0 - 699px Здесь контейнер должен быть отзывчивым, минимальная ширина шаблона 300 */
 
 /* HERO */
-@media (max-width: 1260px) {
-    .container {
-        max-width: 1000px;
-    }
-}
 
 @media (max-width: 1139px) {
     .container {
@@ -65,8 +60,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .container {
         max-width: 100%;
         width: 100%;
-        padding-right: 14px;
-        padding-left: 14px;
+        padding-right: 16px;
+        padding-left: 16px;
     }
 
     .hero {
@@ -87,5 +82,99 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 @media (max-width: 420px) {
     .hero__subtitle {
         max-width: 223px;
+    }
+}
+
+/* INFO */
+
+@media (max-width: 1139px) {
+    .info {
+        padding-top: 80px;
+        padding-bottom: 62px;
+    }
+    .info__wrapper {
+        align-items: start;
+    }
+    .info__video {
+        width: 405px;
+        height: 271px;
+        margin-top: 100px;
+    }
+    .info__video::before {
+        top: -27px;
+        left: -41px;
+    }
+    .info__text {
+        width: 417px;
+    }
+}
+@media (max-width: 1019px) {
+    .container {
+        max-width: 569px;
+    }
+    .info {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .info__wrapper {
+        flex-direction: column-reverse;
+        gap: 73px;
+    }
+    .info__text {
+        max-width: 100%;
+        width: 100%;
+    }
+    .info__title {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .info__title-description {
+        font-size: 12px;
+        margin-top: 13px;
+    }
+    .info__description {
+        margin-bottom: 16px;
+        font-size: 14px;
+        line-height: 20px;  
+    }
+    .info__video {
+        box-sizing: border-box;
+        width: 100%;
+        height: 361px;
+        margin-top: 0;
+        padding-left: 30px;
+    }
+    .info__video::before {
+        width: calc(100% - 30px);
+        top: -42px;
+        left: 0;
+    }
+}
+@media (max-width: 699px) {
+    .container {
+        max-width: 569px;
+    }
+    .info {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .info__wrapper {
+        gap: 50px;
+    }
+    .info__title {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+    .info__description {
+        margin-bottom: 20px;
+    }
+    .info__video {
+        height: 174px;
+    }
+
+    .info__video::before {
+        width: calc(100% - 30px);
+        top: -20px;
+        left: 3px;
     }
 }

@@ -125,6 +125,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: end;
+    gap: 40px;
 }
 .info__video {
     position: relative;

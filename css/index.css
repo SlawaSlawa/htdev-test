@@ -201,17 +201,22 @@ body {
     height: 60px;
     margin-right: 38px;
 }
-.note___text {
+.note__text {
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
     line-height: 32px;
     max-width: 676px;
+    position: relative;
+    z-index: 10;
 }
 .note__decor {
     position: absolute;
     background-image: url("../images/decor-blue.svg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
     width: 437px;
     height: 173px;
     right: 0;

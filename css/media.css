@@ -178,3 +178,56 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         left: 3px;
     }
 }
+
+/* NOTE */
+
+@media (max-width: 1139px) {
+    .note {
+        overflow: hidden;
+    }
+    .note__decor {
+        width: 436px;
+        height: 322px;
+        right: -282px;
+        bottom: -50px;
+    }
+}
+@media (max-width: 1019px) {
+    .note {
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+    .note__text {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 435px;
+    }
+    .note__btn {
+        width: 22px;
+        height: 28px;
+        margin-right: 27px;
+    }
+    .note__decor {
+        width: 179px;
+        height: 132px;
+        right: 0;
+        bottom: 0;
+    }
+}
+@media (max-width: 699px) {
+    .note__wrapper {
+        align-items: start;
+    }
+    .note__btn {
+        margin-right: 7px;
+    }
+    .note__text {
+        max-width: 100%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .note__decor {
+        right: -10px;
+        bottom: -64px;
+    }
+}

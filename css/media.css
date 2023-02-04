@@ -1,0 +1,91 @@
+/* Верстка должна быть адаптивной. Брейкпоинты:
+L -> 1340px+ Здесь ширина контейнера 1250px, как в макете
+M -> 1020px - 1339px Здесь ширина контейнера 930px.
+S -> 700px - 1019px Здесь ширина контейнера 610px.
+XS -> 0 - 699px Здесь контейнер должен быть отзывчивым, минимальная ширина шаблона 300 */
+
+/* HERO */
+@media (max-width: 1260px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (max-width: 1139px) {
+    .container {
+        max-width: 848px;
+    }
+    .logo {
+        margin-left: 20px;
+    }
+    .hero {
+        padding-top: 238px;
+        padding-bottom: 181px;
+    }
+    .hero__title {
+        margin-bottom: 28px;
+    }
+    .hero__decor {
+        display: none;
+    }
+}
+
+@media (max-width: 960px) {
+    .logo {
+        margin-left: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 167px;
+        height: 64px;
+    }
+    .logo__img {
+        width: 150px;
+    }
+    .hero {
+        padding-top: 119px;
+        padding-bottom: 95px;
+    }
+    .hero__title {
+        font-size: 36px;
+        line-height: 40px;
+        margin-top: 0;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .hero__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 322px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 700px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding-right: 14px;
+        padding-left: 14px;
+    }
+
+    .hero {
+        padding-top: 119px;
+        padding-bottom: 153px;
+    }
+
+    .hero__title {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .hero__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 420px) {
+    .hero__subtitle {
+        max-width: 223px;
+    }
+}

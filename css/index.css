@@ -322,6 +322,7 @@ body {
     position: relative;
     width: 356px;
     height: 317px;
+    overflow: auto;
 }
 .advantages__item-img {
     display: block;

@@ -301,3 +301,29 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         padding: 10px 20px;
     }
 }
+
+/* ADVANTAGES */
+@media (max-width: 1139px) {
+    .advantages {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .section-title {
+        margin-bottom: 32px;
+    }
+    .advantages__list {
+        row-gap: 35px;
+        column-gap: 20px;
+    }
+    .advantages__item {
+        width: 260px;
+        height: 343px;
+    }
+}
+
+@media (max-width: 1019px) {
+    
+}
+
+@media (max-width: 699px) {
+}

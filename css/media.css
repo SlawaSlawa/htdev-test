@@ -6,7 +6,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* HERO */
 
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .container {
         max-width: 848px;
     }
@@ -25,7 +25,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 960px) {
+@media (max-width: 929px) {
     .logo {
         margin-left: 0;
         left: 50%;
@@ -87,7 +87,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* INFO */
 
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .info {
         padding-top: 80px;
         padding-bottom: 62px;
@@ -108,7 +108,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         width: 417px;
     }
 }
-@media (max-width: 1019px) {
+@media (max-width: 929px) {
     .container {
         max-width: 569px;
     }
@@ -181,7 +181,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* NOTE */
 
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .note {
         overflow: hidden;
     }
@@ -195,7 +195,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         bottom: -50px;
     }
 }
-@media (max-width: 1019px) {
+@media (max-width: 929px) {
     .note {
         padding-top: 50px;
         padding-bottom: 32px;
@@ -240,7 +240,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 /* SLOGAN */
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .slogan__title {
         margin-bottom: 32px;
     }
@@ -250,7 +250,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 1019px) {
+@media (max-width: 929px) {
     .slogan {
         padding-top: 55px;
         padding-bottom: 55px;
@@ -303,7 +303,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 /* ADVANTAGES */
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .advantages {
         padding-top: 80px;
         padding-bottom: 80px;
@@ -321,7 +321,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 1019px) {
+@media (max-width: 929px) {
     .section-title {
         font-size: 20px;
         line-height: 32px;
@@ -375,7 +375,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* PRESENTATION */
 
-@media (max-width: 1139px) {
+@media (max-width: 1339px) {
     .section-title {
         margin-bottom: 20px;
     }
@@ -388,7 +388,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 1019px) {
+@media (max-width: 929px) {
     .presentation {
         overflow: hidden;
         padding-top: 20px;

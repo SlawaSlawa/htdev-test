@@ -93,6 +93,7 @@ body {
     position: relative;
     padding-top: 219px;
     padding-bottom: 187px;
+    overflow-x: clip;
 }
 
 .hero__title {
@@ -111,6 +112,7 @@ body {
     max-width: 550px;
     margin-top: 0;
 }
+
 .hero__decor {
     position: absolute;
     width: 363px;
@@ -195,6 +197,7 @@ body {
     position: relative;
     padding-top: 70px;
     padding-bottom: 71px;
+    overflow: hidden;
 }
 
 .note__wrapper {
@@ -389,6 +392,7 @@ body {
     background-color: #F7EEE5;
     padding-top: 5px;
     padding-bottom: 120px;
+    overflow: hidden;
 }
 .presentation__decor-up {
     display: block;

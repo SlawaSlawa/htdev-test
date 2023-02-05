@@ -5,7 +5,7 @@ const sliderAdvantages = document.querySelector('.swiper.advantages__slider')
 let mySwiper
 
 function mobileSliderAdvantages() {
-    if (window.innerWidth <= 1019 && sliderAdvantages.dataset.mobile === 'false') {
+    if (window.innerWidth <= 929 && sliderAdvantages.dataset.mobile === 'false') {
         mySwiper = new Swiper(sliderAdvantages, {
             loop: true,
             pagination: {

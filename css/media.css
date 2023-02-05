@@ -394,6 +394,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         padding-top: 20px;
     }
     .presentation-slider {
+        display: block;
     }
     .section-title {
         font-size: 18px;

@@ -525,6 +525,7 @@ body {
 
 /* PRESENTATION SLIDER */
 .presentation-slider {
+    display: none;
     position: relative;
     margin-right: 45px;
 }

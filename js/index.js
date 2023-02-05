@@ -39,3 +39,29 @@ function mobileSliderAdvantages() {
 
 mobileSliderAdvantages()
 window.addEventListener('resize', mobileSliderAdvantages)
+
+// SLIDER PRESENTATION
+
+const sliderPresentation = document.querySelector('.swiper--presentation')
+
+const presentationSwiper = new Swiper(sliderPresentation, {
+    loop: true,
+    pagination: {
+        el: '.swiper-pagination.swiper-pagination--presentation',
+        clickable: true,
+    },
+    navigation: {
+        nextEl: '.swiper-button-next.swiper-button-next--presentation',
+        prevEl: '.swiper-button-prev.swiper-button-prev--presentation',
+    },
+    breakpoints: {
+        300: {
+            slidesPerView: 1,
+            spaceBetween: 25,
+        },
+        699: {
+            slidesPerView: 2,
+            spaceBetween: 25,
+        }
+    }
+})

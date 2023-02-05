@@ -372,3 +372,94 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         right: -13px;
     }
 }
+
+/* PRESENTATION */
+
+@media (max-width: 1139px) {
+    .section-title {
+        margin-bottom: 20px;
+    }
+    .presentation__subtitle {
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+    .presentation__item {
+        max-width: 748px;
+    }
+}
+
+@media (max-width: 1019px) {
+    .presentation {
+        overflow: hidden;
+        padding-top: 20px;
+    }
+    .presentation-slider {
+    }
+    .section-title {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    .presentation__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0;
+        margin-bottom: 48px;
+    }
+    .presentation__item {
+        display: none;
+    }
+    .presentation__img-block {
+        width: 100%;
+    }
+    .presentation__desc-block-description {
+        width: 100%;
+        background-color: #0A3B93;
+        text-align: center;
+        margin: 0;
+        padding: 16px 10px;
+    }
+    .presentation__description {
+        text-align: left;
+        padding: 16px 10px;
+    }
+    .swiper-slide--presentation {
+        background-color: #0A3B93;
+        height: 294px;
+    }
+    .presentation__decor-center {
+        display: none;
+    }
+    .presentation__decor-up {
+        top: auto;
+        bottom: -60%;
+    }
+}
+
+@media (max-width: 699px) {
+    .presentation-slider {
+        margin-right: 0;
+    }
+    .presentation {
+        padding-top: 20px;
+    }
+    .section-title {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 12px;
+    }
+    .presentation__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+        margin-top: 0;
+    }
+    .swiper-button-prev--presentation {
+        left: -13px;
+    }
+    .swiper-button-next--presentation {
+        right: -13px;
+    }
+    .presentation__decor-up {
+        bottom: -51%;
+    }
+}

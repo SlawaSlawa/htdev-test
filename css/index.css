@@ -418,6 +418,7 @@ body {
     line-height: 30px;
     color: #6C5F4A;
     margin-bottom: 60px;
+    font-weight: 400;
 }
 .presentation__item {
     background-color: #0A3B8E;
@@ -520,4 +521,48 @@ body {
 .swiper-pagination--advantages .swiper-pagination-bullet-active {
     background-color: #0A3B93;
     opacity: 1;
+}
+
+/* PRESENTATION SLIDER */
+.presentation-slider {
+    position: relative;
+    margin-right: 45px;
+}
+.swiper-pagination.swiper-pagination--presentation {
+    top: auto;
+    bottom: -20px;
+}
+.swiper-pagination--presentation .swiper-pagination-bullet {
+    background-color: #8A7B60;
+    opacity: .33;
+    width: 4px;
+    height: 4px;
+}
+.swiper-pagination--presentation .swiper-pagination-bullet-active {
+    background-color: #0A3B93;
+    opacity: 1;
+}
+.swiper-button-prev--presentation {
+    background-image: url("../images/arrow-prev.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 8px;
+    left: -20px;
+}
+.swiper-button-next--presentation {
+    background-image: url("../images/arrow-next.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 8px;
+    right: -50px;
+}
+.swiper-button-prev--presentation::after {
+    display: none;
+}
+.swiper-button-next--presentation::after {
+    display: none;
 }

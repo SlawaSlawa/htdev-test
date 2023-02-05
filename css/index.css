@@ -399,8 +399,8 @@ body {
     background-size: cover;
     width: 260px;
     height: 416px;
-    top: 0;
-    right: 0;
+    top: 27px;
+    right: -9px;
 }
 .presentation__decor-center {
     display: block;
@@ -411,11 +411,12 @@ body {
     background-size: cover;
     width: 292px;
     height: 368px;
-    top: 43%;
-    left: 0;
+    top: 43.5%;
+    left: -9px;
 }
 
 .section-title--presentation {
+    margin-top: 21px;
     margin-bottom: 20px;
 }
 
@@ -423,6 +424,7 @@ body {
     font-size: 18px;
     line-height: 30px;
     color: #6C5F4A;
+    margin-top: 21px;
     margin-bottom: 60px;
     font-weight: 400;
 }
@@ -445,6 +447,7 @@ body {
 }
 .presentation__img {
     object-fit: cover;
+    object-position: 0 0;
     display: block;
     width: 100%;
     height: 240px;
@@ -455,6 +458,11 @@ body {
     margin: 0;
     padding: 16px 40px;
 }
+
+.presentation__description--left {
+    text-align: center;
+}
+
 .presentation__desc-block {
     display: flex;
     flex-direction: column;
@@ -466,14 +474,20 @@ body {
 }
 
 .presentation__numbers {
-    font-size: 73px;
-    margin-bottom: 30px;
+    font-size: 102px;
+    line-height: 1;
+    margin-bottom: 3px;
 }
 
 .presentation__desc-block-description {
     text-align: center;
     width: 228px;
     margin-top: 14px;
+}
+.presentation__desc-block-description--left {
+    text-align: left;
+    width: 100%;
+    margin-left: 80px;
 }
 
 /* ADVANTAGES SLIDER */

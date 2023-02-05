@@ -259,7 +259,7 @@ body {
     line-height: 80px;
     text-align: center;
     text-transform: uppercase;
-    margin: 0 auto 40px auto;
+    margin: 0 auto 15px auto;
 }
 
 .slogan__title::before,
@@ -274,11 +274,11 @@ body {
     transform: translateY(-50%);
 }
 .slogan__title::before {
-    left: -100px;
+    left: -87px;
 }
 
 .slogan__title::after {
-    right: -100px;
+    right: -86px;
 }
 
 .slogan__description {

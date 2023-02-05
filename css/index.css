@@ -193,8 +193,8 @@ body {
 .note {
     background-color: #0A3B93;
     position: relative;
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 70px;
+    padding-bottom: 71px;
 }
 
 .note__wrapper {
@@ -227,14 +227,15 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
-    width: 437px;
-    height: 173px;
-    right: 0;
-    bottom: 0;
+    width: 436px;
+    height: 322px;
+    right: -13px;
+    bottom: -148px;
 }
 
 /* SLOGAN */
 .slogan {
+    position: relative;
     background-color: #8A7B60;
     background-image: url("../images/mission-bg.jpg");
     background-repeat: no-repeat;

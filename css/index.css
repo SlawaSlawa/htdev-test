@@ -20,6 +20,10 @@
     display: none!important;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
@@ -68,6 +72,7 @@ body {
 .section-title {
     font-size: 40px;
     line-height: 60px;
+    font-weight: 400;
     color: #0A3B93;
     margin-top: 0;
     margin-bottom: 60px;
@@ -322,7 +327,6 @@ body {
     position: relative;
     width: 356px;
     height: 317px;
-    overflow: auto;
 }
 .advantages__item-img {
     display: block;
@@ -463,4 +467,57 @@ body {
     text-align: center;
     width: 228px;
     margin-top: 14px;
+}
+
+/* ADVANTAGES SLIDER */
+.advantages__slider-wrap {
+    position: relative;
+}
+
+.swiper-pagination, 
+.swiper-button-prev,
+.swiper-button-next {
+        display: none;
+}
+
+.swiper-button-prev--advantages {
+    background-image: url("../images/arrow-prev.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 8px;
+    left: -20px;
+}
+.swiper-button-next--advantages {
+    background-image: url("../images/arrow-next.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 11px;
+    height: 8px;
+    right: -50px;
+}
+
+.swiper-button-prev--advantages::after {
+    display: none;
+}
+.swiper-button-next--advantages::after {
+    display: none;
+}
+
+.swiper-pagination--advantages {
+    top: auto;
+    bottom: -16px;
+}
+
+.swiper-pagination--advantages .swiper-pagination-bullet {
+    background-color: #8A7B60;
+    opacity: .33;
+    width: 4px;
+    height: 4px;
+}
+.swiper-pagination--advantages .swiper-pagination-bullet-active {
+    background-color: #0A3B93;
+    opacity: 1;
 }

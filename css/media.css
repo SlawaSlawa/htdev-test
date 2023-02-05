@@ -322,8 +322,53 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 @media (max-width: 1019px) {
-    
+    .section-title {
+        font-size: 20px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .advantages {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .advantages__list {
+        flex-wrap: nowrap;
+        row-gap: 0;
+        column-gap: 0;
+    }
+    .advantages__item {
+        height: 284px;
+    }
+    .advantages__item-description {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .advantages__slider {
+        width: 100%;
+        overflow: hidden;
+    }
+    .swiper-pagination, .swiper-button-prev,
+    .swiper-button-next {
+        display: block;
+    }
+    .swiper-pagination.swiper-pagination--advantages {
+        top: auto;
+        bottom: -20px;
+    }
+    .advantages__slider-wrap {
+        margin-right: 45px;
+    }
 }
 
 @media (max-width: 699px) {
+    .advantages__slider-wrap {
+        margin-right: 0;
+    }
+
+    .swiper-button-prev--advantages {
+        left: -13px;
+    }
+    .swiper-button-next--advantages {
+        right: -13px;
+    }
 }

@@ -125,7 +125,7 @@ body {
 /* INFO */
 
 .info {
-    padding-top: 100px;
+    padding-top: 53px;
     padding-bottom: 100px;
 }
 .info__wrapper {
@@ -156,11 +156,13 @@ body {
 }
 .info__title {
     font-family: 'Lato', sans-serif;
-    font-size: 66px;
+    font-size: 90px;
     text-transform: uppercase;
     font-weight: 700;
     color: #8A7B60;
+    margin-top: 65px;
     margin-bottom: 32px;
+    margin-left: -5px;
 }
 .info__title-description {
     display: block;
@@ -171,14 +173,15 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     color: #0A3B93;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-left: 3px;
 }
 .info__description {
     font-size: 18px;
     line-height: 30px;
     color: #6C5F4A;
     margin-top: 0;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .info__description:last-child {

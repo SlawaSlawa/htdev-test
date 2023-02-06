@@ -8,14 +8,14 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 @media (max-width: 1339px) {
     .container {
-        max-width: 848px;
+        max-width: 850px;
     }
     .logo {
         margin-left: 20px;
     }
     .hero {
         padding-top: 238px;
-        padding-bottom: 181px;
+        padding-bottom: 155px;
     }
     .hero__title {
         margin-bottom: 28px;
@@ -89,16 +89,28 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 @media (max-width: 1339px) {
     .info {
-        padding-top: 80px;
-        padding-bottom: 62px;
+        position: relative;
+        padding-top: 35px;
+        padding-bottom: 76px;
+    }
+    .info::before {
+        content: "";
+        position: absolute;
+        display: block;
+        background-color: #F7EEE5;
+        width: 100%;
+        height: 18px;
+        bottom: 0;
+        left: 0;
     }
     .info__wrapper {
         align-items: start;
+        gap: 24px;
     }
     .info__video {
         width: 405px;
         height: 271px;
-        margin-top: 100px;
+        margin-top: 105px;
     }
     .info__video::before {
         top: -27px;
@@ -191,8 +203,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .note__decor {
         width: 436px;
         height: 322px;
-        right: -282px;
-        bottom: -50px;
+        right: -285px;
+        bottom: -145px;
     }
 }
 @media (max-width: 929px) {
@@ -241,12 +253,17 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* SLOGAN */
 @media (max-width: 1339px) {
+    .slogan {
+        padding-top: 84px;
+        padding-bottom: 101px;
+    }
     .slogan__title {
-        margin-bottom: 32px;
+        margin-bottom: 31px;
     }
     .slogan__description {
+        max-width: 582px;
         line-height: 32px;
-        margin-bottom: 32px;
+        margin: 0 auto 32px auto;  
     }
 }
 
@@ -306,14 +323,14 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 @media (max-width: 1339px) {
     .advantages {
         padding-top: 80px;
-        padding-bottom: 80px;
+        padding-bottom: 55px;
     }
     .section-title {
         margin-bottom: 32px;
     }
     .advantages__list {
-        row-gap: 35px;
-        column-gap: 20px;
+        row-gap: 20px;
+        column-gap: 35px;
     }
     .advantages__item {
         width: 260px;
@@ -376,7 +393,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 /* PRESENTATION */
 
 @media (max-width: 1339px) {
-    .section-title {
+    .section-title--presentation {
         margin-bottom: 20px;
     }
     .presentation__subtitle {
@@ -385,6 +402,29 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .presentation__item {
         max-width: 748px;
+    }
+    .presentation__decor-up {
+        top: 22px;
+        right: -92px;
+    }
+    .presentation__decor-center {
+        top: 54.4%;
+        left: -17px;
+    }
+    .presentation__img-block {
+        width: 458px;  
+    }
+    .presentation__description {
+        padding: 16px 32px;
+    }
+    .presentation__item--reverse {
+        max-width: 689px;
+    }
+    .presentation__img-block--reverse {
+        width: 396px;
+    }
+    .presentation__desc-block--reverse {
+        /* width: 200px; */
     }
 }
 

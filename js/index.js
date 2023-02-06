@@ -29,7 +29,7 @@ function mobileSliderAdvantages() {
         })
         sliderAdvantages.dataset.mobile = true
     }
-    if (window.innerWidth > 1019) {
+    if (window.innerWidth > 929) {
         sliderAdvantages.dataset.mobile = false
         if (sliderAdvantages.classList.contains('swiper-initialized')) {
             mySwiper.destroy()

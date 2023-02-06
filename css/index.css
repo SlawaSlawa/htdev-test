@@ -464,7 +464,7 @@ body {
 }
 
 .presentation__description--left {
-    text-align: center;
+    text-align: left;
 }
 
 .presentation__desc-block {

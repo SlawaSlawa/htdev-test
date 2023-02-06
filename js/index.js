@@ -21,7 +21,7 @@ function mobileSliderAdvantages() {
                     slidesPerView: 1,
                     spaceBetween: 25,
                 },
-                699: {
+                610: {
                     slidesPerView: 2,
                     spaceBetween: 25,
                 }
@@ -59,7 +59,7 @@ const presentationSwiper = new Swiper(sliderPresentation, {
             slidesPerView: 1,
             spaceBetween: 25,
         },
-        699: {
+        610: {
             slidesPerView: 2,
             spaceBetween: 25,
         }

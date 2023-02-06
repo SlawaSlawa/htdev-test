@@ -44,7 +44,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         font-size: 36px;
         line-height: 40px;
         margin-top: 0;
-        margin-bottom: 20px;
+        margin-bottom: 21px;
         text-align: center;
     }
     .hero__subtitle {
@@ -56,7 +56,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 609px) {
     .container {
         max-width: 100%;
         width: 100%;
@@ -96,7 +96,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .info::before {
         content: "";
         position: absolute;
-        display: block;
+        display: none;
         background-color: #F7EEE5;
         width: 100%;
         height: 18px;
@@ -137,15 +137,17 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         width: 100%;
     }
     .info__title {
-        font-size: 30px;
-        margin-bottom: 20px;
+        font-size: 42px;
+        margin-top: 3px;
+        margin-bottom: 8px;
+        margin-left: -2px;
     }
     .info__title-description {
-        font-size: 12px;
-        margin-top: 13px;
+        font-size: 8px;
+        margin-top: 6px;
     }
     .info__description {
-        margin-bottom: 16px;
+        margin-bottom: 11px;
         font-size: 14px;
         line-height: 20px;  
     }
@@ -153,8 +155,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         box-sizing: border-box;
         width: 100%;
         height: 361px;
-        margin-top: 0;
-        padding-left: 30px;
+        margin-top: 18px;
+        padding-left: 28px;
     }
     .info__video::before {
         width: calc(100% - 30px);
@@ -162,7 +164,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         left: 0;
     }
 }
-@media (max-width: 699px) {
+@media (max-width: 609px) {
     .container {
         max-width: 569px;
     }
@@ -209,8 +211,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 @media (max-width: 929px) {
     .note {
-        padding-top: 50px;
-        padding-bottom: 32px;
+        padding-top: 16px;
+        padding-bottom: 16px;
     }
     
     .note__text {
@@ -230,7 +232,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         bottom: 0;
     }
 }
-@media (max-width: 699px) {
+@media (max-width: 609px) {
     .note {
         padding-top: 32px;
     }
@@ -275,7 +277,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .slogan__title {
         font-size: 30px;
         line-height: 46px; 
-        margin-bottom: 10px; 
+        margin-bottom: 22px; 
     }
     .slogan__title::before,
     .slogan__title::after {
@@ -291,8 +293,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .slogan__description {
         font-size: 16px;
         line-height: 20px;
-        max-width: 428px;
-        margin: 0 auto 12px auto;
+        max-width: 400px;
+        margin: 0 auto 9px auto;
     }
     .goto-link {
         font-size: 14px;
@@ -301,7 +303,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 609px) {
     .slogan {
         padding-top: 27px;
         padding-bottom: 60px;
@@ -344,6 +346,10 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         line-height: 32px;
         margin-bottom: 20px;
     }
+    .section-title.section-title--presentation {
+        font-size: 18px;
+        margin-bottom: 14px;
+    }
     .advantages {
         padding-top: 60px;
         padding-bottom: 60px;
@@ -368,16 +374,24 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .swiper-button-next {
         display: block;
     }
+    .swiper-button-prev--advantages {
+        top: 56%;
+        left: -21px;
+    }
+    .swiper-button-next--advantages {
+        top: 56%;
+        right: -41px;
+    }
     .swiper-pagination.swiper-pagination--advantages {
         top: auto;
-        bottom: -20px;
+        bottom: -25px;
     }
     .advantages__slider-wrap {
-        margin-right: 45px;
+        margin-right: 25px;
     }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 609px) {
     .advantages__slider-wrap {
         margin-right: 0;
     }
@@ -431,15 +445,16 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 @media (max-width: 929px) {
     .presentation {
         overflow: hidden;
-        padding-top: 20px;
+        padding-top: 0;
     }
     .presentation-slider {
         display: block;
+        margin-right: 25px;
     }
     .section-title {
-        font-size: 18px;
+        font-size: 20px;
         line-height: 30px;
-        margin-bottom: 12px;
+        margin-bottom: 22px;
     }
     .presentation__subtitle {
         font-size: 16px;
@@ -475,9 +490,20 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         top: auto;
         bottom: -60%;
     }
+    .swiper-button-prev--presentation {
+        top: 56%;
+        left: -22px;
+    }
+    .swiper-button-next--presentation {
+        top: 56%;
+        right: -37px;
+    }
+    .swiper-pagination.swiper-pagination--presentation {
+        bottom: -24px;
+    }
 }
 
-@media (max-width: 699px) {
+@media (max-width: 609px) {
     .presentation-slider {
         margin-right: 0;
     }

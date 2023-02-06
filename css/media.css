@@ -1,12 +1,12 @@
 /* Верстка должна быть адаптивной. Брейкпоинты:
-L -> 1340px+ Здесь ширина контейнера 1250px, как в макете
+L -> 1340px+ Здесь ширина контейнера 1249px, как в макете
 M -> 1020px - 1339px Здесь ширина контейнера 930px.
 S -> 700px - 1019px Здесь ширина контейнера 610px.
 XS -> 0 - 699px Здесь контейнер должен быть отзывчивым, минимальная ширина шаблона 300 */
 
 /* HERO */
 
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .container {
         max-width: 850px;
     }
@@ -87,7 +87,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* INFO */
 
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .info {
         position: relative;
         padding-top: 35px;
@@ -200,7 +200,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* NOTE */
 
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .note {
         overflow: hidden;
     }
@@ -262,7 +262,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 /* SLOGAN */
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .slogan {
         padding-top: 84px;
         padding-bottom: 101px;
@@ -331,7 +331,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 /* ADVANTAGES */
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .advantages {
         padding-top: 80px;
         padding-bottom: 55px;
@@ -418,7 +418,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 /* PRESENTATION */
 
-@media (max-width: 1339px) {
+@media (max-width: 1249px) {
     .section-title--presentation {
         margin-bottom: 20px;
     }
@@ -448,9 +448,6 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .presentation__img-block--reverse {
         width: 396px;
-    }
-    .presentation__desc-block--reverse {
-        /* width: 200px; */
     }
 }
 

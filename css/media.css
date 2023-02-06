@@ -66,7 +66,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
     .hero {
         padding-top: 119px;
-        padding-bottom: 153px;
+        padding-bottom: 148px;
     }
 
     .hero__title {
@@ -176,20 +176,25 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         gap: 50px;
     }
     .info__title {
-        font-size: 32px;
+        font-size: 41px;
         margin-bottom: 16px;
     }
+    .info__title-description {
+        margin-top: 11px;
+    }
     .info__description {
-        margin-bottom: 20px;
+        margin-bottom: 10px;
     }
     .info__video {
         height: 174px;
+        margin-top: -2px;
+        padding-left: 0;
     }
 
     .info__video::before {
         width: calc(100% - 30px);
         top: -20px;
-        left: 3px;
+        left: -16px;
     }
 }
 
@@ -234,13 +239,16 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 @media (max-width: 609px) {
     .note {
-        padding-top: 32px;
+        padding-top: 31px;
+        padding-bottom: 33px;
     }
     .note__wrapper {
         align-items: start;
     }
     .note__btn {
-        margin-right: 7px;
+        width: 41px;
+        margin-top: 3px;
+        margin-right: 4px;
     }
     .note__text {
         max-width: 100%;
@@ -310,9 +318,10 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .slogan__title {
         font-size: 18px;
+        margin-bottom: 6px;
     }
     .slogan__description {
-        margin-bottom: 30px;
+        margin-bottom: 29px;
     }
     .goto-link {
         font-size: 18px;
@@ -392,6 +401,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 }
 
 @media (max-width: 609px) {
+    .advantages {
+        padding-top: 51px;
+    }
     .advantages__slider-wrap {
         margin-right: 0;
     }
@@ -508,25 +520,39 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         margin-right: 0;
     }
     .presentation {
-        padding-top: 20px;
+        padding-top: 0;
     }
     .section-title {
         font-size: 18px;
         line-height: 30px;
-        margin-bottom: 12px;
+        margin-bottom: 20px;
+    }
+    .section-title.section-title--presentation {
+        margin-bottom: 18px;
     }
     .presentation__subtitle {
         font-size: 16px;
         line-height: 20px;
         margin-top: 0;
+        margin-bottom: 8px;
     }
     .swiper-button-prev--presentation {
+        top: 50%;
         left: -13px;
     }
     .swiper-button-next--presentation {
+        top: 50%;
         right: -13px;
     }
     .presentation__decor-up {
         bottom: -51%;
+    }
+    .swiper-pagination.swiper-pagination--presentation {
+        bottom: auto;
+        top: -129px;
+        left: -5px;
+        right: auto;
+        display: inline-block;
+        width: auto;
     }
 }

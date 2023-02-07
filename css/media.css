@@ -44,7 +44,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         font-size: 36px;
         line-height: 40px;
         margin-top: 0;
-        margin-bottom: 21px;
+        margin-bottom: 20px;
         text-align: center;
     }
     .hero__subtitle {
@@ -144,6 +144,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .info__title-description {
         font-size: 8px;
         margin-top: 6px;
+        margin-left: 2px;
+        letter-spacing: 0.3px;
     }
     .info__description {
         margin-bottom: 11px;
@@ -220,13 +222,14 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 @media (max-width: 929px) {
     .note {
         padding-top: 16px;
-        padding-bottom: 16px;
+        padding-bottom: 19px;
     }
     
     .note__text {
         font-size: 16px;
         line-height: 20px;
         max-width: 435px;
+        margin-top: 16px;
     }
     .note__btn {
         width: 22px;
@@ -236,8 +239,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .note__decor {
         width: 179px;
         height: 132px;
-        right: 0;
-        bottom: 0;
+        right: -2px;
+        bottom: -34px;
     }
 }
 @media (max-width: 609px) {
@@ -377,7 +380,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .advantages__item {
         height: 284px;
     }
-    .advantages__item-description {
+    .advantages__item-description,
+    .advantages__more-text {
         font-size: 14px;
         line-height: 22px;
     }
@@ -404,6 +408,10 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .advantages__slider-wrap {
         margin-right: 25px;
     }
+    .advantages__item-btn {
+        bottom: 26px;
+    }
+
 }
 
 @media (max-width: 609px) {
@@ -492,6 +500,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         text-align: center;
         margin: 0;
         padding: 16px 10px;
+    }
+    .presentation__desc-block-description--left {
+        text-align-last: left;
     }
     .presentation__description {
         text-align: left;

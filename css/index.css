@@ -67,7 +67,7 @@ body {
     width: 267px;
     height: 103px;
     top: 0;
-    left: 0;
+    left: 14px;
     z-index: 100;
 }
 
@@ -94,7 +94,7 @@ body {
     background-size: cover;
     position: relative;
     padding-top: 219px;
-    padding-bottom: 187px;
+    padding-bottom: 191px;
     overflow-x: clip;
 }
 
@@ -122,7 +122,7 @@ body {
     background-image: url("../images/decor-gray.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    right: -8px;
+    right: 0;
     bottom: -98px;
 }
 
@@ -151,7 +151,7 @@ body {
 .info__video {
     position: relative;
     width: 545px;
-    height: 365px;
+    height: 367px;
 }
 .info__video iframe{
     position: relative;
@@ -193,8 +193,8 @@ body {
     line-height: 30px;
     text-transform: uppercase;
     color: #0A3B93;
-    margin-top: 45px;
-    margin-left: 3px;
+    margin-top: 47px;
+    margin-left: 4px;
 }
 .info__description {
     font-size: 18px;
@@ -228,8 +228,8 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    width: 47px;
-    height: 60px;
+    width: 46px;
+    height: 109px;
     margin-right: 38px;
 }
 .note__text {
@@ -250,7 +250,7 @@ body {
     background-position: center;
     width: 436px;
     height: 322px;
-    right: -13px;
+    right: -6px;
     bottom: -148px;
 }
 
@@ -344,7 +344,8 @@ body {
 .advantages__list {
     display: flex;
     flex-wrap: wrap;
-    gap: 31px;
+    row-gap: 32px;
+    column-gap: 31px;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -424,8 +425,8 @@ body {
     background-size: cover;
     width: 260px;
     height: 416px;
-    top: 27px;
-    right: -9px;
+    top: 29px;
+    right: -1px;
 }
 .presentation__decor-center {
     display: block;
@@ -437,7 +438,7 @@ body {
     width: 292px;
     height: 368px;
     top: 43.5%;
-    left: -9px;
+    left: 0;
 }
 
 .section-title--presentation {

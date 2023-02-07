@@ -72,6 +72,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .hero__title {
         font-size: 24px;
         line-height: 24px;
+        margin-bottom: 21px;
     }
     .hero__subtitle {
         font-size: 16px;
@@ -161,6 +162,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .info__video::before {
         width: calc(100% - 30px);
+        height: 106%;
         top: -42px;
         left: 0;
     }
@@ -195,9 +197,10 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
 
     .info__video::before {
-        width: calc(100% - 30px);
+        width: calc(100% - 9px);
         top: -20px;
         left: -16px;
+        height: 106%;
     }
 }
 
@@ -254,16 +257,18 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .note__btn {
         width: 41px;
         margin-top: 3px;
-        margin-right: 4px;
+        margin-right: 6px;
+        margin-left: 1px;
     }
     .note__text {
         max-width: 100%;
         margin-top: 0;
         margin-bottom: 0;
+        padding-right: 7px;
     }
     .note__decor {
-        right: -10px;
-        bottom: -64px;
+        right: -56px;
+        bottom: -66px;
     }
 }
 
@@ -416,7 +421,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 
 @media (max-width: 609px) {
     .advantages {
-        padding-top: 51px;
+        padding-top: 49px;
     }
     .advantages__slider-wrap {
         margin-right: 0;
@@ -537,19 +542,21 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         margin-right: 0;
     }
     .presentation {
-        padding-top: 0;
+        padding-top: 3px;
     }
     .section-title {
-        font-size: 18px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 32px;
         margin-bottom: 20px;
     }
     .section-title.section-title--presentation {
+        margin-top: 16px;
         margin-bottom: 18px;
     }
     .presentation__subtitle {
         font-size: 16px;
         line-height: 20px;
+        max-width: 198px;
         margin-top: 0;
         margin-bottom: 8px;
     }
@@ -566,8 +573,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .swiper-pagination.swiper-pagination--presentation {
         bottom: auto;
-        top: -129px;
-        left: -5px;
+        top: -132px;
+        left: -3px;
         right: auto;
         display: inline-block;
         width: auto;

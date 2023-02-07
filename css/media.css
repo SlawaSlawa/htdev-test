@@ -15,7 +15,7 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     }
     .hero {
         padding-top: 238px;
-        padding-bottom: 155px;
+        padding-bottom: 159px;
     }
     .hero__title {
         margin-bottom: 28px;
@@ -109,6 +109,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         top: -27px;
         left: -41px;
     }
+    .info__title-description {
+        margin-top: 45px;
+    }
     .info__text {
         width: 417px;
     }
@@ -201,6 +204,8 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
 @media (max-width: 1249px) {
     .note {
         overflow: hidden;
+        padding-top: 72px;
+        padding-bottom: 72px;
     }
     .note:before {
         display: none;
@@ -345,6 +350,9 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         width: 260px;
         height: 343px;
     }
+    .advantages__item-btn {
+        bottom: 30px;
+    }
 }
 
 @media (max-width: 929px) {
@@ -439,13 +447,16 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
         width: 458px;  
     }
     .presentation__description {
-        padding: 16px 32px;
+        padding: 16px 32px 16px 49px;
     }
     .presentation__item--reverse {
         max-width: 689px;
     }
     .presentation__img-block--reverse {
         width: 396px;
+    }
+    .presentation__desc-block-description--left {
+        margin-left: 98px;
     }
 }
 

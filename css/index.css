@@ -398,6 +398,7 @@ body {
     top: 0;
     left: -100%;
     transition: left .3s ease;
+    overflow: auto;
 }
 .advantages__more--active {
     left: 0;

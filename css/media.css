@@ -478,6 +478,14 @@ XS -> 0 - 699px Здесь контейнер должен быть отзывч
     .presentation__desc-block-description--left {
         margin-left: 98px;
     }
+    .presentation__desc-block-description {
+        margin-top: 20px;
+        margin-bottom: 26px;
+    }
+    .presentation__desc-block-description--left {
+        margin-top: 19px;
+        margin-bottom: 12px;
+    }
 }
 
 @media (max-width: 929px) {
